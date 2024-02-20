@@ -11,7 +11,7 @@ This project implements a reinforcement learning agent to navigate a grid world 
 - **Epsilon**: Probability of choosing the best action (exploitation) vs. a random action (exploration).
 - **Discount factor**: Weight given to future rewards compared to immediate rewards.
 - **Learning rate**: How quickly the agent updates its Q-values based on experience.
-- 
+  
 ## Components:
 
 - q_values: Stores Q-values for each state-action pair.
@@ -21,7 +21,7 @@ This project implements a reinforcement learning agent to navigate a grid world 
 - get_next_action: Chooses the next action based on epsilon and Q-values.
 - get_next_location: Updates the agent's location based on chosen action.
 - get_shortest_path: Uses learned Q-values to find the shortest path to the goal from any starting point.
-- 
+  
 ## Training:
 
 The agent interacts with the environment, exploring and updating its Q-values through Q-learning.
